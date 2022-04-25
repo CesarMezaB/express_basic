@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
     res.send('Hello Wordl!')
 })
 
+// localhost:3000/launchx
+app.get('/launchx', (req, res) => {
+    res.send('Bienvenidos a Launchx')
+})
+
 
 // Con esto inicializamos esta app 
 
